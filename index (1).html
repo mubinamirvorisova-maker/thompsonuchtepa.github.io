@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thompson International School – Student Union</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Cormorant Garamond (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500;600&family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <!-- Phosphor Icons CDN -->
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js"></script>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" data-nav="home">
+        <span class="logo-symbol">✦</span>
+        <span class="logo-text">TIS <em>Uchtepa</em></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active" data-nav="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-nav="about">About</a></li>
+        <li><a href="#members" class="nav-link" data-nav="members">Members</a></li>
+        <li><a href="#teachers" class="nav-link" data-nav="teachers">Teachers</a></li>
+        <li><a href="#news" class="nav-link" data-nav="news">News</a></li>
+        <li><a href="#gallery" class="nav-link" data-nav="gallery">Gallery</a></li>
+        <li><a href="#contact" class="nav-link" data-nav="contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════
+       HOME / HERO
+  ═══════════════════════════════════════════ -->
+  <section class="hero" id="home">
+    <!-- Animated background grid -->
+    <div class="hero-grid"></div>
+    <!-- Red orb lighting -->
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge reveal-up">
+        <span class="badge-dot"></span>
+        Student Union — Uchtepa Branch
+      </div>
+      <h1 class="hero-title reveal-up delay-1">
+        Thompson<br />
+        <em>International</em><br />
+        School
+      </h1>
+      <p class="hero-subtitle reveal-up delay-2">Leadership. Influence. Action.</p>
+      <div class="hero-divider reveal-up delay-3"></div>
+      <div class="hero-cta reveal-up delay-4">
+        <a href="#members" class="btn btn-primary">Meet Our Team</a>
+        <a href="#news" class="btn btn-ghost">Latest News</a>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+
+    <!-- Floating stats -->
+    <div class="hero-stats">
+      <div class="stat-item reveal-right">
+        <span class="stat-number" data-target="320">0</span>
+        <span class="stat-label">Students</span>
+      </div>
+      <div class="stat-item reveal-right delay-1">
+        <span class="stat-number" data-target="48">0</span>
+        <span class="stat-label">Teachers</span>
+      </div>
+      <div class="stat-item reveal-right delay-2">
+        <span class="stat-number" data-target="11">0</span>
+        <span class="stat-label">Grades</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       ABOUT
+  ═══════════════════════════════════════════ -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who We Are</span>
+        <h2 class="section-title">About the <em>Student Union</em></h2>
+      </div>
+
+      <div class="about-grid">
+        <!-- Left: Visual block -->
+        <div class="about-visual reveal-left">
+          <div class="about-image-frame">
+            <div class="about-image-placeholder">
+              <!-- Replace src with actual school image -->
+              <div class="placeholder-text">
+                <span class="placeholder-icon">🏫</span>
+                <p>School Image</p>
+              </div>
+            </div>
+            <div class="about-frame-accent"></div>
+            <div class="about-frame-label">Est. 2025</div>
+          </div>
+        </div>
+
+        <!-- Right: Text content -->
+        <div class="about-content reveal-right">
+          <p class="about-lead">
+            The Thompson International School Student Union at Uchtepa Branch is the official representative body of student voice, creativity, and leadership.
+          </p>
+          <p class="about-body">
+            We bridge the gap between students and administration, organise cultural and academic events, and create an environment where every student can thrive, lead, and make a lasting impact.
+          </p>
+          <p class="about-body">
+            Our mission is rooted in three pillars: <strong>Leadership</strong> — developing the next generation of changemakers; <strong>Influence</strong> — shaping school culture and policy; <strong>Action</strong> — delivering real, tangible results for our community.
+          </p>
+          <div class="about-pillars">
+            <div class="pillar">
+              <div class="pillar-icon">◈</div>
+              <div>
+                <strong>Leadership</strong>
+                <p>Developing confident voices</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">◈</div>
+              <div>
+                <strong>Influence</strong>
+                <p>Shaping school culture</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">◈</div>
+              <div>
+                <strong>Action</strong>
+                <p>Delivering real results</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       MEMBERS
+  ═══════════════════════════════════════════ -->
+  <section class="section members-section" id="members">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">The Council</span>
+        <h2 class="section-title">Student Union <em>Members</em></h2>
+      </div>
+
+      <div class="members-grid">
+
+        <!-- ── Member Card 1 ── -->
+        <div class="member-card reveal-up">
+          <div class="member-card-inner">
+            <div class="member-photo">
+              <!-- Replace with actual photo: <img src="photos/member1.jpg" alt="Name" /> -->
+              <div class="photo-placeholder">
+                <span>👤</span>
+              </div>
+              <div class="member-position-tag">President</div>
+            </div>
+            <div class="member-info">
+              <h3 class="member-name">Mubina Mirvorisova</h3>
+              <p class="member-role">Student Union President</p>
+              <p class="member-bio">A visionary leader passionate about student rights and academic excellence. Mubina drives key initiatives and ensures every student's voice is heard.</p>
+              <div class="member-achievements">
+                <span class="achievement-tag">ASMO Silver Medal</span>
+                <span class="achievement-tag">XPERT STEM Gold Medal</span>
+                <span class="achievement-tag">5x Model UN</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-glow"></div>
+        </div>
+
+        <!-- ── Member Card 2 ── -->
+        <div class="member-card reveal-up delay-1">
+          <div class="member-card-inner">
+            <div class="member-photo">
+              <div class="photo-placeholder"><span>👤</span></div>
+              <div class="member-position-tag">Vice President</div>
+            </div>
+            <div class="member-info">
+              <h3 class="member-name">Burhoniddin Bahodirzoda</h3>
+              <p class="member-role">Vice President</p>
+              <p class="member-bio">Burhoniddin oversees event planning and student welfare. Known for her organisational brilliance and empathetic leadership style.</p>
+              <div class="member-achievements">
+                <span class="achievement-tag">Event Lead</span>
+                <span class="achievement-tag">STEM Award</span>
+                <span class="achievement-tag">Top Scholar</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-glow"></div>
+        </div>
+
+        <!-- ── Member Card 3 ── -->
+        <div class="member-card reveal-up delay-2">
+          <div class="member-card-inner">
+            <div class="member-photo">
+              <div class="photo-placeholder"><span>👤</span></div>
+              <div class="member-position-tag">Event Manager</div>
+            </div>
+            <div class="member-info">
+              <h3 class="member-name">Diora Irmamatova</h3>
+              <p class="member-role">Event Manager</p>
+              <p class="member-bio">Diora ensures every event runs smoothly with perfect planning and communication.</p>
+              <div class="member-achievements">
+                <span class="achievement-tag">Editor-in-Chief</span>
+                <span class="achievement-tag">Journalism Award</span>
+                <span class="achievement-tag">Model UN</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-glow"></div>
+        </div>
+
+        <!-- ── Member Card 4 ── -->
+        <div class="member-card reveal-up">
+          <div class="member-card-inner">
+            <div class="member-photo">
+              <div class="photo-placeholder"><span>👤</span></div>
+              <div class="member-position-tag">Event Managers Assistant</div>
+            </div>
+            <div class="member-info">
+              <h3 class="member-name">Abdurazzoq Abdumutalov</h3>
+              <p class="member-role">Assistant of Event Manager</p>
+              <p class="member-bio">Supporting the Event Manager, Abdurazzoq keeps every event organized, on schedule, and running smoothly.</p>
+              <div class="member-achievements">
+                <span class="achievement-tag">Event Lead</span>
+                <span class="achievement-tag">Math Olympiad</span>
+                <span class="achievement-tag">Best Budget</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-glow"></div>
+        </div>
+
+        <!-- ── Member Card 5 ── -->
+        <div class="member-card reveal-up delay-1">
+          <div class="member-card-inner">
+            <div class="member-photo">
+              <div class="photo-placeholder"><span>👤</span></div>
+              <div class="member-position-tag">Media Manager</div>
+            </div>
+            <div class="member-info">
+              <h3 class="member-name">Bilol Hikmatullaev</h3>
+              <p class="member-role">Media Manager</p>
+              <p class="member-bio">Bilol manages the Union's media, creating engaging content, running social media, and ensuring clear communication across the school.</p>
+              <div class="member-achievements">
+                <span class="achievement-tag">Design Award</span>
+                <span class="achievement-tag">Social Media</span>
+                <span class="achievement-tag">Brand Champion</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-glow"></div>
+        </div>
+
+        <!-- ── Member Card 6 ── -->
+        <div class="member-card reveal-up delay-2">
+          <div class="member-card-inner">
+            <div class="member-photo">
+              <div class="photo-placeholder"><span>👤</span></div>
+              <div class="member-position-tag">Media Managers Assistant</div>
+            </div>
+            <div class="member-info">
+              <h3 class="member-name">Abdulaziz Saidvaliev</h3>
+              <p class="member-role">Assistant of Media Manager</p>
+              <p class="member-bio">Abdulaziz supports the Media Manager by promoting school events, creating content for festivals, and highlighting cultural celebrations.</p>
+              <div class="member-achievements">
+                <span class="achievement-tag">Media Assistant</span>
+                <span class="achievement-tag">Art Exhibition</span>
+                <span class="achievement-tag">Unity Award</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-glow"></div>
+        </div>
+
+      </div><!-- /members-grid -->
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       TEACHERS
+  ═══════════════════════════════════════════ -->
+  <section class="section teachers-section" id="teachers">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Faculty</span>
+        <h2 class="section-title">Meet the <em>Teachers</em></h2>
+      </div>
+
+      <div class="teachers-grid">
+
+        <!-- Teacher 1 -->
+        <div class="teacher-card reveal-up">
+          <div class="teacher-photo">
+            <div class="photo-placeholder teacher-ph"><span>👨‍🏫</span></div>
+          </div>
+          <div class="teacher-info">
+            <h3 class="teacher-name">Mr. Hamid</h3>
+            <span class="teacher-subject">SAT Math</span>
+            <p class="teacher-desc">An Oxford graduate with 12 years of teaching experience, Mr. Hamid brings literary classics to life and champions critical thinking through debate and writing workshops.</p>
+          </div>
+        </div>
+
+        <!-- Teacher 2 -->
+        <div class="teacher-card reveal-up delay-1">
+          <div class="teacher-photo">
+            <div class="photo-placeholder teacher-ph"><span>👩‍🏫</span></div>
+          </div>
+          <div class="teacher-info">
+            <h3 class="teacher-name">Ms. Shakhnoza</h3>
+            <span class="teacher-subject">English</span>
+            <p class="teacher-desc">Ms. Shaknoza's passion for applied mathematics has produced three national Olympiad winners. She believes every problem has an elegant solution.</p>
+          </div>
+        </div>
+
+        <!-- Teacher 3 -->
+        <div class="teacher-card reveal-up delay-2">
+          <div class="teacher-photo">
+            <div class="photo-placeholder teacher-ph"><span>👨‍🔬</span></div>
+          </div>
+          <div class="teacher-info">
+            <h3 class="teacher-name">Mr. Rustam Akhmedov</h3>
+            <span class="teacher-subject">Physics & STEM</span>
+            <p class="teacher-desc">A former research scientist turned educator, Mr. Akhmedov leads the robotics club and inspires students to pursue careers in science and technology.</p>
+          </div>
+        </div>
+
+        <!-- Teacher 4 -->
+        <div class="teacher-card reveal-up">
+          <div class="teacher-photo">
+            <div class="photo-placeholder teacher-ph"><span>👩‍💼</span></div>
+          </div>
+          <div class="teacher-info">
+            <h3 class="teacher-name">Ms. Sarah Mitchell</h3>
+            <span class="teacher-subject">History & Global Studies</span>
+            <p class="teacher-desc">Ms. Mitchell connects past and present with immersive lessons and MUN coaching. Her students have won at regional and international conferences.</p>
+          </div>
+        </div>
+
+        <!-- Teacher 5 -->
+        <div class="teacher-card reveal-up delay-1">
+          <div class="teacher-photo">
+            <div class="photo-placeholder teacher-ph"><span>👨‍🎨</span></div>
+          </div>
+          <div class="teacher-info">
+            <h3 class="teacher-name">Mr. Jahongir Umarov</h3>
+            <span class="teacher-subject">Arts & Design</span>
+            <p class="teacher-desc">With a background in graphic design and fine arts, Mr. Umarov nurtures creative talent through exhibitions, portfolio workshops and collaborative murals.</p>
+          </div>
+        </div>
+
+        <!-- Teacher 6 -->
+        <div class="teacher-card reveal-up delay-2">
+          <div class="teacher-photo">
+            <div class="photo-placeholder teacher-ph"><span>👩‍⚕️</span></div>
+          </div>
+          <div class="teacher-info">
+            <h3 class="teacher-name">Ms. Dilnoza Khasanova</h3>
+            <span class="teacher-subject">Biology & Health Sciences</span>
+            <p class="teacher-desc">Ms. Khasanova's interactive labs and health awareness campaigns have made biology one of the most popular subjects at TIS Uchtepa.</p>
+          </div>
+        </div>
+
+      </div><!-- /teachers-grid -->
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       NEWS & EVENTS
+  ═══════════════════════════════════════════ -->
+  <section class="section news-section" id="news">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What's Happening</span>
+        <h2 class="section-title">News & <em>Events</em></h2>
+      </div>
+
+      <div class="news-grid">
+
+        <!-- Featured Post -->
+        <article class="news-card news-featured reveal-left">
+          <div class="news-image news-image-featured">
+            <div class="news-img-placeholder">
+              <span>⚽</span>
+            </div>
+            <div class="news-category-tag">Sports</div>
+          </div>
+          <div class="news-content">
+            <div class="news-meta">
+              <span class="news-date">March 15, 2025</span>
+              <span class="news-reading">5 min read</span>
+            </div>
+            <h3 class="news-title">Inter-Branch Football Tournament — TIS Uchtepa Takes the Trophy</h3>
+            <p class="news-excerpt">Our school football team delivered a stunning performance across three rounds, defeating rivals from four branches to claim the championship title. Coach Rashidov praised the team's unity and discipline throughout the tournament.</p>
+            <a href="#" class="news-read-more">Read Full Story <span>→</span></a>
+          </div>
+        </article>
+
+        <!-- Side posts -->
+        <div class="news-sidebar">
+
+          <article class="news-card news-small reveal-right">
+            <div class="news-image news-image-small">
+              <div class="news-img-placeholder"><span>🌍</span></div>
+              <div class="news-category-tag">Academic</div>
+            </div>
+            <div class="news-content">
+              <div class="news-meta">
+                <span class="news-date">February 28, 2025</span>
+              </div>
+              <h3 class="news-title">MUN Conference 2025 — Diplomacy in Action</h3>
+              <p class="news-excerpt">Twelve TIS delegates represented nations at the Tashkent Model United Nations, earning Best Delegate and Outstanding Delegate awards.</p>
+              <a href="#" class="news-read-more">Read More <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="news-card news-small reveal-right delay-1">
+            <div class="news-image news-image-small">
+              <div class="news-img-placeholder"><span>🎤</span></div>
+              <div class="news-category-tag">Club</div>
+            </div>
+            <div class="news-content">
+              <div class="news-meta">
+                <span class="news-date">February 10, 2025</span>
+              </div>
+              <h3 class="news-title">Debate Club Semifinals: The Art of Argument</h3>
+              <p class="news-excerpt">Our Debate Club reached the national semifinals, tackling topics from climate policy to digital ethics. A proud achievement for our students.</p>
+              <a href="#" class="news-read-more">Read More <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="news-card news-small reveal-right delay-2">
+            <div class="news-image news-image-small">
+              <div class="news-img-placeholder"><span>🌙</span></div>
+              <div class="news-category-tag">Community</div>
+            </div>
+            <div class="news-content">
+              <div class="news-meta">
+                <span class="news-date">March 5, 2025</span>
+              </div>
+              <h3 class="news-title">Ramadan Charity Drive — Giving Back Together</h3>
+              <p class="news-excerpt">The Student Union organised a school-wide charity drive this Ramadan, collecting food packages and donations for 40 families in the Uchtepa district.</p>
+              <a href="#" class="news-read-more">Read More <span>→</span></a>
+            </div>
+          </article>
+
+        </div>
+      </div><!-- /news-grid -->
+
+      <!-- Upcoming Events Timeline -->
+      <div class="events-timeline reveal-up">
+        <h3 class="timeline-title">Upcoming Events</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">Apr 12</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <strong>Science Fair 2025</strong>
+              <p>Main Hall — All grades</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">Apr 20</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <strong>Navruz Cultural Festival</strong>
+              <p>School Courtyard — Open to all</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">May 3</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <strong>Student Union Elections</strong>
+              <p>Nominations open now</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">May 18</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <strong>End-of-Year Gala</strong>
+              <p>TIS Grand Hall — Evening</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       GALLERY
+  ═══════════════════════════════════════════ -->
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Moments</span>
+        <h2 class="section-title">School <em>Gallery</em></h2>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Each item: replace .gallery-placeholder with <img src="..." alt="..." /> -->
+        <div class="gallery-item gallery-large reveal-up">
+          <div class="gallery-placeholder"><span>🏆</span><p>Championship Day</p></div>
+          <div class="gallery-overlay">
+            <span class="gallery-icon">⊕</span>
+            <p>Football Championship 2025</p>
+          </div>
+        </div>
+        <div class="gallery-item reveal-up delay-1">
+          <div class="gallery-placeholder"><span>🎓</span><p>Graduation</p></div>
+          <div class="gallery-overlay">
+            <span class="gallery-icon">⊕</span>
+            <p>Graduation Ceremony</p>
+          </div>
+        </div>
+        <div class="gallery-item reveal-up delay-2">
+          <div class="gallery-placeholder"><span>🌍</span><p>MUN 2025</p></div>
+          <div class="gallery-overlay">
+            <span class="gallery-icon">⊕</span>
+            <p>MUN Conference 2025</p>
+          </div>
+        </div>
+        <div class="gallery-item reveal-up">
+          <div class="gallery-placeholder"><span>🎤</span><p>Debate Club</p></div>
+          <div class="gallery-overlay">
+            <span class="gallery-icon">⊕</span>
+            <p>Debate Semifinals</p>
+          </div>
+        </div>
+        <div class="gallery-item gallery-large reveal-up delay-1">
+          <div class="gallery-placeholder"><span>🌙</span><p>Ramadan Event</p></div>
+          <div class="gallery-overlay">
+            <span class="gallery-icon">⊕</span>
+            <p>Ramadan Charity Drive</p>
+          </div>
+        </div>
+        <div class="gallery-item reveal-up delay-2">
+          <div class="gallery-placeholder"><span>🎨</span><p>Art Exhibition</p></div>
+          <div class="gallery-overlay">
+            <span class="gallery-icon">⊕</span>
+            <p>Annual Art Exhibition</p>
+          </div>
+        </div>
+        <div class="gallery-item reveal-up">
+          <div class="gallery-placeholder"><span>🔬</span><p>Science Fair</p></div>
+          <div class="gallery-overlay">
+            <span class="gallery-icon">⊕</span>
+            <p>Science Fair 2024</p>
+          </div>
+        </div>
+        <div class="gallery-item reveal-up delay-1">
+          <div class="gallery-placeholder"><span>🎪</span><p>Cultural Fest</p></div>
+          <div class="gallery-overlay">
+            <span class="gallery-icon">⊕</span>
+            <p>Navruz Festival</p>
+          </div>
+        </div>
+        <div class="gallery-item reveal-up delay-2">
+          <div class="gallery-placeholder"><span>📚</span><p>Study Week</p></div>
+          <div class="gallery-overlay">
+            <span class="gallery-icon">⊕</span>
+            <p>Academic Study Week</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightboxClose">✕</button>
+      <div class="lightbox-content" id="lightboxContent"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CONTACT
+  ═══════════════════════════════════════════ -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get in Touch</span>
+        <h2 class="section-title">Contact <em>Us</em></h2>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info reveal-left">
+          <div class="contact-info-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <strong>Address</strong>
+              <p>Uchtepa District, Tashkent, Uzbekistan</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon">📧</div>
+            <div>
+              <strong>Email</strong>
+              <p>studentunion@tis-uchtepa.edu.uz</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon">📞</div>
+            <div>
+              <strong>Phone</strong>
+              <p>+998 71 200 00 00</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon">🕐</div>
+            <div>
+              <strong>Office Hours</strong>
+              <p>Mon–Fri, 9:00 AM – 5:00 PM</p>
+            </div>
+          </div>
+
+          <!-- Social media -->
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i class="ph ph-instagram-logo"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Telegram">
+              <i class="ph ph-telegram-logo"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="YouTube">
+              <i class="ph ph-youtube-logo"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook">
+              <i class="ph ph-facebook-logo"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter/X">
+              <i class="ph ph-x-logo"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrap reveal-right">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required />
+              <span class="form-error" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+              <span class="form-error" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What is this regarding?" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              Send Message <span class="btn-arrow">→</span>
+            </button>
+            <div class="form-success" id="formSuccess">
+              ✓ Your message has been sent! We'll get back to you soon.
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-symbol">✦</span>
+            <span>TIS <em>Uchtepa</em></span>
+          </div>
+          <p>Thompson International School — Uchtepa Branch Student Union</p>
+          <p class="footer-motto">Leadership. Influence. Action.</p>
+        </div>
+        <div class="footer-links">
+          <strong>Navigate</strong>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#members">Members</a></li>
+            <li><a href="#teachers">Teachers</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-events">
+          <strong>Upcoming</strong>
+          <ul>
+            <li><span class="footer-date">Apr 12</span> Science Fair 2025</li>
+            <li><span class="footer-date">Apr 20</span> Navruz Festival</li>
+            <li><span class="footer-date">May 3</span> SU Elections</li>
+            <li><span class="footer-date">May 18</span> Year-End Gala</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Thompson International School – Uchtepa Branch. All rights reserved.</p>
+        <p>Built by the Student Union</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
